@@ -7,3 +7,16 @@ So for now, I just want to learn some fundamentals and code a basic app (not thi
 
 Well that's kinda all ^\_^
 Make sure to star this!
+
+## How to test my app
+
+It's a Golang app, so the code easily transforms into binary. All you have to do is:
+
+1. Install Git if you don't have it
+2. Run in terminal:
+
+```Bash
+git clone https://github.com/LvuhaCool/Learning-Golang
+cd Learning-Golang
+go run main.go
+```
