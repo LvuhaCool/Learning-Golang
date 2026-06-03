@@ -26,8 +26,8 @@ go run main.go
 ```Bash
 git clone https://github.com/LvuhaCool/Learning-Golang
 cd Learning-Golang
-go build -o app-1
-./app-1
+go build -o bmi-app main.go
+./bmi-app
 ```
 
 (If you want to test in binary although it doesn't make any difference).
