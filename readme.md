@@ -26,7 +26,7 @@ go run main.go
 ```Bash
 git clone https://github.com/LvuhaCool/Learning-Golang
 cd Learning-Golang
-go build -0 app-1
+go build -o app-1
 ./app-1
 ```
 
