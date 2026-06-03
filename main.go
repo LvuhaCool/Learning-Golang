@@ -10,10 +10,10 @@ func main() {
 	var userHeight float64
 	var userWeight float64
 	fmt.Println("___ Калькулятор индекса массы тела ___")
-	fmt.Print("Введите свой рост в метрах: ")
+	fmt.Print("Введите свой рост в сантиметрах: ")
 	fmt.Scan(&userHeight)
 	fmt.Print("Введите свой вес в килограммах: ")
 	fmt.Scan(&userWeight)
-	BMI := userWeight / math.Pow(userHeight, BMIPower)
-	fmt.Printf("Ваш индекс массы тела: %v", BMI)
+	BMI := userWeight / math.Pow(userHeight/100, BMIPower)
+	fmt.Printf("Ваш индекс массы тела: %.0f", BMI)
 }
